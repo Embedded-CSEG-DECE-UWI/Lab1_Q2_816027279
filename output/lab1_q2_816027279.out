@@ -1,0 +1,236 @@
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7536, room 16 
+tail 0
+chksum 0xcb
+load 0x3ffe8408, len 24, room 8 
+tail 0
+chksum 0x72
+load 0x3ffe8420, len 3468, room 8 
+tail 4
+chksum 0x1a
+csum 0x1a
+[0;32mI (44) boot: ESP-IDF v3.4-71-g7085cc76 2nd stage bootloader[0m
+[0;32mI (44) boot: compile time 16:25:35[0m
+[0;32mI (44) boot: SPI Speed      : 40MHz[0m
+[0;32mI (50) boot: SPI Mode       : DOUT[0m
+[0;32mI (57) boot: SPI Flash Size : 1MB[0m
+[0;32mI (63) boot: Partition Table:[0m
+[0;32mI (68) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (79) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (91) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (102) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (114) boot: End of partition table[0m
+[0;32mI (121) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x15f34 ( 89908) map[0m
+[0;32mI (173) esp_image: segment 1: paddr=0x00025f4c vaddr=0x40225f44 size=0x05a2c ( 23084) map[0m
+[0;32mI (184) esp_image: segment 2: paddr=0x0002b980 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (185) esp_image: segment 3: paddr=0x0002bd64 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (198) esp_image: segment 4: paddr=0x0002bdec vaddr=0x40100080 size=0x045b8 ( 17848) load[0m
+[0;32mI (219) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (243) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (248) gpio: GPIO[2]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;32mI (259) main: cnt: 1
+[0m
+[0;32mI (1254) main: cnt: 2
+[0m
+[0;32mI (2254) main: cnt: 3
+[0m
+[0;32mI (2256) main: GPIO[2] intr, val: 0, times called: 1
+[0m
+[0;32mI (3254) main: cnt: 4
+[0m
+[0;32mI (4254) main: cnt: 5
+[0m
+[0;32mI (4256) main: GPIO[2] intr, val: 0, times called: 2
+[0m
+[0;32mI (5254) main: cnt: 6
+[0m
+[0;32mI (6254) main: cnt: 7
+[0m
+[0;32mI (6256) main: GPIO[2] intr, val: 0, times called: 3
+[0m
+[0;32mI (7254) main: cnt: 8
+[0m
+[0;32mI (8254) main: cnt: 9
+[0m
+[0;32mI (8256) main: GPIO[2] intr, val: 0, times called: 4
+[0m
+[0;32mI (9254) main: cnt: 10
+[0m
+[0;32mI (10255) main: cnt: 11
+[0m
+[0;32mI (10257) main: GPIO[2] intr, val: 0, times called: 5
+[0m
+[0;32mI (11255) main: cnt: 12
+[0m
+[0;32mI (12255) main: cnt: 13
+[0m
+[0;32mI (12257) main: GPIO[2] intr, val: 0, times called: 6
+[0m
+[0;32mI (13255) main: cnt: 14
+[0m
+[0;32mI (14255) main: cnt: 15
+[0m
+[0;32mI (14257) main: GPIO[2] intr, val: 0, times called: 7
+[0m
+[0;32mI (15255) main: cnt: 16
+[0m
+[0;32mI (16255) main: cnt: 17
+[0m
+[0;32mI (16257) main: GPIO[2] intr, val: 0, times called: 8
+[0m
+[0;32mI (17255) main: cnt: 18
+[0m
+[0;32mI (18255) main: cnt: 19
+[0m
+[0;32mI (18257) main: GPIO[2] intr, val: 0, times called: 9
+[0m
+[0;32mI (19255) main: cnt: 20
+[0m
+[0;32mI (20256) main: cnt: 21
+[0m
+[0;32mI (20258) main: GPIO[2] intr, val: 0, times called: 10
+[0m
+[0;32mI (21256) main: cnt: 22
+[0m
+[0;32mI (22256) main: cnt: 23
+[0m
+[0;32mI (22258) main: GPIO[2] intr, val: 0, times called: 11
+[0m
+[0;32mI (23256) main: cnt: 24
+[0m
+[0;32mI (24256) main: cnt: 25
+[0m
+[0;32mI (24258) main: GPIO[2] intr, val: 0, times called: 12
+[0m
+[0;32mI (25256) main: cnt: 26
+[0m
+[0;32mI (26256) main: cnt: 27
+[0m
+[0;32mI (26258) main: GPIO[2] intr, val: 0, times called: 13
+[0m
+[0;32mI (27256) main: cnt: 28
+[0m
+[0;32mI (28256) main: cnt: 29
+[0m
+[0;32mI (28258) main: GPIO[2] intr, val: 0, times called: 14
+[0m
+[0;32mI (29256) main: cnt: 30
+[0m
+[0;32mI (30257) main: cnt: 31
+[0m
+[0;32mI (30259) main: GPIO[2] intr, val: 0, times called: 15
+[0m
+[0;32mI (31257) main: cnt: 32
+[0m
+[0;32mI (32257) main: cnt: 33
+[0m
+[0;32mI (32259) main: GPIO[2] intr, val: 0, times called: 16
+[0m
+[0;32mI (33257) main: cnt: 34
+[0m
+[0;32mI (34257) main: cnt: 35
+[0m
+[0;32mI (34259) main: GPIO[2] intr, val: 0, times called: 17
+[0m
+[0;32mI (35257) main: cnt: 36
+[0m
+[0;32mI (36257) main: cnt: 37
+[0m
+[0;32mI (36259) main: GPIO[2] intr, val: 0, times called: 18
+[0m
+[0;32mI (37257) main: cnt: 38
+[0m
+[0;32mI (38257) main: cnt: 39
+[0m
+[0;32mI (38259) main: GPIO[2] intr, val: 0, times called: 19
+[0m
+[0;32mI (39257) main: cnt: 40
+[0m
+[0;32mI (40258) main: cnt: 41
+[0m
+[0;32mI (40260) main: GPIO[2] intr, val: 0, times called: 20
+[0m
+[0;32mI (41258) main: cnt: 42
+[0m
+[0;32mI (42258) main: cnt: 43
+[0m
+[0;32mI (42260) main: GPIO[2] intr, val: 0, times called: 21
+[0m
+[0;32mI (43258) main: cnt: 44
+[0m
+[0;32mI (44258) main: cnt: 45
+[0m
+[0;32mI (44260) main: GPIO[2] intr, val: 0, times called: 22
+[0m
+[0;32mI (45258) main: cnt: 46
+[0m
+[0;32mI (46258) main: cnt: 47
+[0m
+[0;32mI (46260) main: GPIO[2] intr, val: 0, times called: 23
+[0m
+[0;32mI (47258) main: cnt: 48
+[0m
+[0;32mI (48258) main: cnt: 49
+[0m
+[0;32mI (48260) main: GPIO[2] intr, val: 0, times called: 24
+[0m
+[0;32mI (49258) main: cnt: 50
+[0m
+[0;32mI (50259) main: cnt: 51
+[0m
+[0;32mI (50261) main: GPIO[2] intr, val: 0, times called: 25
+[0m
+[0;32mI (51259) main: cnt: 52
+[0m
+[0;32mI (52259) main: cnt: 53
+[0m
+[0;32mI (52261) main: GPIO[2] intr, val: 0, times called: 26
+[0m
+[0;32mI (53259) main: cnt: 54
+[0m
+[0;32mI (54259) main: cnt: 55
+[0m
+[0;32mI (54261) main: GPIO[2] intr, val: 0, times called: 27
+[0m
+[0;32mI (55259) main: cnt: 56
+[0m
+[0;32mI (56259) main: cnt: 57
+[0m
+[0;32mI (56261) main: GPIO[2] intr, val: 0, times called: 28
+[0m
+[0;32mI (57259) main: cnt: 58
+[0m
+[0;32mI (58259) main: cnt: 59
+[0m
+[0;32mI (58261) main: GPIO[2] intr, val: 0, times called: 29
+[0m
+[0;32mI (59259) main: cnt: 60
+[0m
+[0;32mI (60260) main: cnt: 61
+[0m
+[0;32mI (60262) main: GPIO[2] intr, val: 0, times called: 30
+[0m
+[0;32mI (61260) main: cnt: 62
+[0m
+[0;32mI (62260) main: cnt: 63
+[0m
+[0;32mI (62262) main: GPIO[2] intr, val: 0, times called: 31
+[0m
+[0;32mI (63260) main: cnt: 64
+[0m
+[0;32mI (64260) main: cnt: 65
+[0m
+[0;32mI (64262) main: GPIO[2] intr, val: 0, times called: 32
+[0m
+[0;32mI (65260) main: cnt: 66
+[0m
+[0;32mI (66260) main: cnt: 67
+[0m
+[0;32mI (66262) main: GPIO[2] intr, val: 0, times called: 33
+[0m
+[0;32mI (67260) main: cnt: 68
+[0m
+
+Terminating...
+Thanks for using picocom
