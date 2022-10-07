@@ -84,9 +84,6 @@ void app_main(void) {
   io_conf.pull_up_en = 1;
   gpio_config(&io_conf);
 
-  // change gpio interrupt type for GPIO2
-  gpio_set_intr_type(GPIO_INPUT_IO, GPIO_INTR_NEGEDGE);
-
   // create a queue to handle gpio event from isr
   gpio_evt_queue = xQueueCreate(10, sizeof(uint32_t));
   // start gpio task
