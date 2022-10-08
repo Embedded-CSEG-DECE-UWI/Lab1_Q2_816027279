@@ -1,17 +1,17 @@
-# ECNG3006 Lab 1 Question 1
+# ECNG3006 Lab 1 Question 2
 
 Registers an interrupt handler and triggers it from app_main.
 
 ## GPIO functions
 
  * GPIO0: output
- * GPIO2:  input, pulled up, interrupt from falling edge
+ * GPIO2: input, pulled up, interrupt from falling edge
 
 ## How to use example
 
 ### Hardware Required
 
- * Connect GPIO15 with GPIO4
+ * Connect GPIO0 with GPIO2
 
 ### Configure the project
 
