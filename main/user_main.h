@@ -39,22 +39,25 @@
 #define GPIO_INPUT_IO       2
 #define GPIO_INPUT_PIN_SEL  (1ULL << GPIO_INPUT_IO)
 
-/*
+/**
  * @brief Handle interrupts from GPIO2, sends arg as a uint32_t over an
  * inter-task queue to gpio_task_example
+ *
  * @param arg Context pointer passed by xTaskCreate (pvParameters)
- * @return void
  */
 static void gpio_isr_handler(void *arg);
 
-/*
+/**
  * @brief Whenever an item is received in the queue, print the gpio number, the
  * current input (should be 0), and the number of times called.
+ *
  * @param arg Context pointer passed by xTaskCreate (pvParameters)
- * @return void
  */
 static void gpio_task_example(void *arg);
 
+/**
+ * @brief Initalize GPIO pins, interrupts, tasks and toggles GPIO0
+ */
 void app_main(void);
 
 #endif
